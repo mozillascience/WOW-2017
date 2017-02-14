@@ -373,7 +373,8 @@ nav a.selected:after {
   font-weight: 500;
   margin: 0;
 }
-.glossary {
+.glossary,
+.participants {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
@@ -382,18 +383,27 @@ nav a.selected:after {
   column-gap: 30px;
   margin: 0 0 40px 0;
 }
-.glossary .term {
+.glossary .term,
+.participants .term,
+.glossary .person,
+.participants .person {
   -webkit-column-break-inside: avoid;
   column-break-inside: avoid;
   display: table;
 }
-.glossary .term h3 {
+.glossary .term h3,
+.participants .term h3,
+.glossary .person h3,
+.participants .person h3 {
   font-weight: 500;
   font-size: 16px;
   color: #273D44;
   margin: 0;
 }
-.glossary .term p {
+.glossary .term p,
+.participants .term p,
+.glossary .person p,
+.participants .person p {
   margin-bottom: 20px;
   margin-left: 15px;
 }
@@ -448,10 +458,3 @@ table.altrowstable td {
 .evenrowcolor {
   background-color: #cfe4af;
 }
-
-
-
-
-
-
-
