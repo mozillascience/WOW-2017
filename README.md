@@ -1,5 +1,7 @@
 # Welcome to the 2017 Working Open Workshop repository!
 
+[![Join the chat at https://gitter.im/mozillascience/WOW-2017](https://badges.gitter.im/mozillascience/WOW-2017.svg)](https://gitter.im/mozillascience/WOW-2017?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Gitter](https://badges.gitter.im/mozillascience/working-open-workshop.svg)](https://gitter.im/mozillascience/working-open-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is a repo to collect all materials and resources related to Mozilla Science Lab's Working Open Workshops held in 2017. You are invited to fork this repo and use our materials-- please let us know what you do with them and how it goes!
