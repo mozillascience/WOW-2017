@@ -68,10 +68,11 @@
         <section>
           <h4>Materials</h4>
           <ul>
-            <li>A data set with which you are familiar</li>
+            <li>A dataset! Let's <a href="https://cats.gsfc.nasa.gov/">this one</a></li>
             <li>Pen/pencil &amp; paper or text editor</li>
             <li><a href="https://github.com/mozillascience/working-open-workshop/blob/gh-pages/handouts/data_reuse_plan_template.md">
             Data Reuse Plan Template</a></li>
+            <li> <a href="https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example-2.json">Example of a data.json file</a></li>
           </ul>
         </section>
       </section>
@@ -85,6 +86,67 @@
         it, saves you time by helping you plan research processes and workflow early in the
         research project. Finally, this documentation makes it easier for you to defend your
         research... remember back to second grade when your teacher told you to “show your work”.
+      </p>
+      
+      
+        <h1>What is metadata?</h1>
+
+    <p>
+      In a nutshell, metadata is descriptive, standardized, machine readable information about a dataset. It makes the dataset useful, reusable, discoverable. Good metadata is discoverable by search engines and uses open standards (today we focus on the data.json format, which is used by the USA's Data.gov). When choosing how to create metadata for your work, consult associations like the <a href="https://www.rd-alliance.org/recommendations-and-outputs/all-recommendations-and-outputs">Research Data Alliance</a> to find out what is the standard format is for your field. Standards exist! Use them!
+       </p>
+
+    <p>
+      A good JSON metadata file should address these questions using <a href="https://project-open-data.cio.gov/v1.1/metadata-resources/#field-mappings">standard field codes</a>. Standard field codes are a way of answering basic questions in a way that will map to multiple database types and be understood easily by humans and machines. Here's a relatively short data.json file: 
+        </p>
+     
+```
+{
+  "title": "VA National Formulary",
+  "maintainer": "Don Lees",
+  "maintainer_email": "Don.Lees@va.gov",
+  "notes": "The VA National Formulary is a listing of products (drugs and supplies) that must be available for prescription at all VA facilities, and cannot be made non-formulary by a Veteran Integrated Service Network (VISN) or individual medical center. Regarding chemical or biological entities that by law must be submitted to the United States (U.S.) Food and Drug Administration (FDA) for pre-marketing approval, only those entities that actually have been approved by FDA using New Drug Application (NDA), Abbreviated New Drug Application (ANDA), or biologics license, may be added to the VA National Formulary.",
+  "license_id": "cc-zero",
+  "landingPage": "URL for landing page goes here ",
+  "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "doi":"publication or data doi",
+  "isPartOf": "larger project?",
+  "tags": "FDA",
+  "organization": {
+    "description": "",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "type": "organization",
+    "id": ""
+  }
+}
+```
+  <p>Here's what some those fields mean:
+      
+   <li>Title: Human-readable name of the data set. Should be in plain English and include sufficient detail to facilitate search and discovery.</li>
+
+ <li>Maintainer: Contact person’s name for the data set.</li>
+
+ <li>Maintainer_email: Contact person’s email address.</li>
+
+ <li>Notes: Human-readable description of the dataset (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether it is of interest.</li>
+
+ <li>Organization title: The publishing organization or entity.</li>
+
+
+ <li>License_title: The license or non-license (i.e. Public Domain) status with which the dataset has been published.</li>
+
+ <li>Landing_page: A dataset’s human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.Who created the data set? What agency, people, missions, or experiments does it relate to?</li>
+    
+ <li>id: Universal ID or uuid, for example "ff9ae098-eccc-41d8-bfcd-5e8ed047db05"</li>
+<li>doi: Is there a publication associated with this dataset? List the DOI here.</li>
+   
+   
+    Is it being maintained?
+    From where was it downloaded? (Landing page)
+    What types of data are in this dataset?
+    Are there publications associted with it?
       </p>
 
       <p>
