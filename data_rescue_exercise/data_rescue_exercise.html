@@ -99,8 +99,8 @@
       A good JSON metadata file should address these questions using <a href="https://project-open-data.cio.gov/v1.1/metadata-resources/#field-mappings">standard field codes</a>. Standard field codes are a way of answering basic questions in a way that will map to multiple database types and be understood easily by humans and machines. Here's a relatively short data.json file: 
         </p>
      
-```
-{
+<code class="prettyprint">
+    var jsonObj = {
   "title": "VA National Formulary",
   "maintainer": "Don Lees",
   "maintainer_email": "Don.Lees@va.gov",
@@ -121,7 +121,8 @@
     "id": ""
   }
 }
-```
+</code>
+      
   <p>Here's what some those fields mean:
       
    <li>Title: Human-readable name of the data set. Should be in plain English and include sufficient detail to facilitate search and discovery.</li>
