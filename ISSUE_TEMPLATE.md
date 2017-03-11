@@ -1,6 +1,4 @@
-_Please follow this format for your issue. Look at the [TEMPLATE issue](https://github.com/mozillascience/WOW-2017/issues/3) if you have questions_
-
-**Bolded** items are for you to fill in vis-à-vis your project/study group.
+Please follow this format for your issue. Look at the TEMPLATE issue if you have questions: https://github.com/mozillascience/WOW-2017/issues/3)
 
 ## PROJECT
 
