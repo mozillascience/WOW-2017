@@ -1,16 +1,15 @@
 
-##About this Project
+## About this Project
 
 ![](https://media.giphy.com/media/xGIzWN1IdzIhW/giphy.gif)
 
-##Getting Set Up
+## Getting Set Up
 
-##Good First Bugs
+## Good First Bugs
 
-##Other Resources to Help
+## Other Resources to Help
 
-##A GIF to get you pumped!
-
+## A GIF to get you pumped!
 
 Thinking of contributing to the Working Open Workshop? That's great! We'd love to have you.
 
