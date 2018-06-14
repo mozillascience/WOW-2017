@@ -24,7 +24,7 @@ WOW was designed as a springboard for a group we're calling the [Open Leadership
 
 #### How can I get involved with WOW, or contribute to this repo? 
 
-Visit MSL's website for information about upcoming WOW events near you! Check out our [contribute.md](contribute.md) to learn how to help us with WOW materials. 
+Visit MSL's website for information about upcoming WOW events near you! Check out our [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to help us with WOW materials. 
 
 #### What is "open" research?
 
